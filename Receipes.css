@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+}
+
+.nav{
+    display:flex; 
+     justify-content:space-between; 
+    margin-top:30px;
+    margin-bottom:60px;
+    
+}
+.contact a{
+    
+    color:white;
+        text-decoration:none;
+    }
+    .name {
+        margin-right:100px;
+        font-size: 30px;
+        font-weight:700;
+        
+    }
+    .contact{
+        padding:0px 10px;
+       background-color: purple;
+        font-size: 30px;
+        font-weight:700;
+        border-radius: 4px;
+    }
+    .contact a{
+    
+        color:white;
+            text-decoration:none;
+        }
+        .heading a{
+            margin-right:30px;
+            text-decoration:none;
+        }
+        .name {
+            margin-right:100px;
+            font-size: 30px;
+            font-weight:700;
+            
+        }
+        .name span{
+            color:purple;
+        }
+        
+        .cover{
+            margin :0 auto;
+            max-width: 1300px;;
+        }
+        .below{
+            display:grid;
+            grid-template-columns: 1fr 4fr;
+        }
+        .below{
+            line-height: 2;
+        }
+        .foodImages{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        .foodImages img{
+            height:300px;
+            width:100%;
+            border-radius: 5px;
+        }
+        .foodImages div{
+            margin-left:30px ;
+            margin-bottom: 30px;
+        }
+        .bottom{
+            background-color:black;
+        }
+        .bottom p{
+            padding-top:20px;
+            padding-bottom:20px;
+            text-align:center;
+            color:white;
+        }
+        .bottom p span{
+            color:purple;
+        }
